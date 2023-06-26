@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2023-06-02 11:42:20.427826",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "f_name",
+  "l_name",
+  "full_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "f_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "f_name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "l_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "l_name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "full_name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-02 11:43:25.096814",
+ "modified_by": "Administrator",
+ "module": "Temp Module",
+ "name": "Temp_Doc",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

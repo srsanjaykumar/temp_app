@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-15 17:31:36.788254",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "proc_name",
+  "proc_option",
+  "foot_print"
+ ],
+ "fields": [
+  {
+   "fieldname": "proc_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "proc_option",
+   "fieldtype": "Data",
+   "label": "Option"
+  },
+  {
+   "fieldname": "foot_print",
+   "fieldtype": "Float",
+   "label": "footprint"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-18 23:29:55.128826",
+ "modified_by": "Administrator",
+ "module": "newserakku",
+ "name": "OptionDoc",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

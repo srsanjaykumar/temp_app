@@ -1,0 +1,37 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-18 23:49:49.468409",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "qid",
+  "values"
+ ],
+ "fields": [
+  {
+   "fieldname": "values",
+   "fieldtype": "Data",
+   "label": "Value"
+  },
+  {
+   "fieldname": "qid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-19 12:53:00.032205",
+ "modified_by": "Administrator",
+ "module": "newserakku",
+ "name": "uservalues",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

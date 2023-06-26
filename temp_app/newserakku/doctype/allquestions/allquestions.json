@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2023-06-15 17:22:24.169746",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "uid",
+  "question",
+  "category",
+  "footprint",
+  "applytoalloption",
+  "options"
+ ],
+ "fields": [
+  {
+   "fieldname": "uid",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "UID",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "question",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Question",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "Category1",
+   "reqd": 1
+  },
+  {
+   "default": "null",
+   "fieldname": "footprint",
+   "fieldtype": "Link",
+   "label": "Footprint",
+   "options": "Footprint1"
+  },
+  {
+   "fieldname": "options",
+   "fieldtype": "Table",
+   "label": "Options",
+   "options": "OptionDoc"
+  },
+  {
+   "default": "0",
+   "fieldname": "applytoalloption",
+   "fieldtype": "Check",
+   "label": "ApplyToAllOption"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-18 23:27:30.982042",
+ "modified_by": "Administrator",
+ "module": "newserakku",
+ "name": "ALLQuestions",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

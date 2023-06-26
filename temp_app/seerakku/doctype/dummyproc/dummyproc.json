@@ -1,0 +1,218 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-15 15:51:11.807215",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "process_data",
+  "id",
+  "question",
+  "type",
+  "option_1",
+  "pname_1",
+  "is_correct1",
+  "sectionbreak1",
+  "option_2",
+  "pname_2",
+  "is_correct2",
+  "sectionbreak2",
+  "option_3",
+  "pname_3",
+  "is_correct3",
+  "sectionbreak3",
+  "option_4",
+  "pname_4",
+  "is_correct4",
+  "section_break_5l8ct",
+  "option_5",
+  "pname_5",
+  "is_correct5",
+  "section_break_w14vc",
+  "option_6",
+  "pname_6",
+  "is_correct6",
+  "section_break_5eafn",
+  "option_7",
+  "pname_7",
+  "is_correct7"
+ ],
+ "fields": [
+  {
+   "fieldname": "process_data",
+   "fieldtype": "Link",
+   "label": "Process",
+   "options": "ProcessOptions"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Id",
+   "read_only": 1
+  },
+  {
+   "fieldname": "question",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Question",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "type",
+   "options": "choice"
+  },
+  {
+   "fieldname": "option_1",
+   "fieldtype": "Data",
+   "label": "Option1"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct1",
+   "fieldtype": "Check",
+   "label": "Is Correct"
+  },
+  {
+   "fieldname": "sectionbreak1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_2",
+   "fieldtype": "Data",
+   "label": "Option2"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct2",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "sectionbreak2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_3",
+   "fieldtype": "Data",
+   "label": "Option3"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct3",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "sectionbreak3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_4",
+   "fieldtype": "Data",
+   "label": "Option4"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct4",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "section_break_5l8ct",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_5",
+   "fieldtype": "Data",
+   "label": "Option5"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct5",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "section_break_w14vc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_6",
+   "fieldtype": "Data",
+   "label": "Option6"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct6",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "section_break_5eafn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_7",
+   "fieldtype": "Data",
+   "label": "Option7"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct7",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "pname_1",
+   "fieldtype": "Data",
+   "label": "pname_1"
+  },
+  {
+   "fieldname": "pname_2",
+   "fieldtype": "Data",
+   "label": "pname_2"
+  },
+  {
+   "fieldname": "pname_3",
+   "fieldtype": "Data",
+   "label": "pname_3"
+  },
+  {
+   "fieldname": "pname_4",
+   "fieldtype": "Data",
+   "label": "pname_4"
+  },
+  {
+   "fieldname": "pname_5",
+   "fieldtype": "Data",
+   "label": "pname_5"
+  },
+  {
+   "fieldname": "pname_6",
+   "fieldtype": "Data",
+   "label": "pname_6"
+  },
+  {
+   "fieldname": "pname_7",
+   "fieldtype": "Data",
+   "label": "pname_7"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-15 15:53:25.707194",
+ "modified_by": "Administrator",
+ "module": "seerakku",
+ "name": "dummyproc",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

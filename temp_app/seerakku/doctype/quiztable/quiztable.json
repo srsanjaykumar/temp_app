@@ -1,0 +1,175 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-08 13:36:28.707279",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "process_data",
+  "id",
+  "question",
+  "type",
+  "option_1",
+  "is_correct1",
+  "sectionbreak1",
+  "option_2",
+  "is_correct2",
+  "sectionbreak2",
+  "option_3",
+  "is_correct3",
+  "sectionbreak3",
+  "option_4",
+  "is_correct4",
+  "section_break_5l8ct",
+  "option_5",
+  "is_correct5",
+  "section_break_w14vc",
+  "option_6",
+  "is_correct6",
+  "section_break_5eafn",
+  "option_7",
+  "is_correct7"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Id",
+   "read_only": 1
+  },
+  {
+   "fieldname": "question",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Question",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "type",
+   "options": "choice"
+  },
+  {
+   "fieldname": "option_1",
+   "fieldtype": "Data",
+   "label": "Option1"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct1",
+   "fieldtype": "Check",
+   "label": "Is Correct"
+  },
+  {
+   "fieldname": "sectionbreak1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_2",
+   "fieldtype": "Data",
+   "label": "Option2"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct2",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "sectionbreak2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_3",
+   "fieldtype": "Data",
+   "label": "Option3"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct3",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "sectionbreak3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_4",
+   "fieldtype": "Data",
+   "label": "Option4"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct4",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "section_break_5l8ct",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_5",
+   "fieldtype": "Data",
+   "label": "Option5"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct5",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "section_break_w14vc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_6",
+   "fieldtype": "Data",
+   "label": "Option6"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct6",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "section_break_5eafn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "option_7",
+   "fieldtype": "Data",
+   "label": "Option7"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_correct7",
+   "fieldtype": "Check",
+   "label": "is Correct"
+  },
+  {
+   "fieldname": "process_data",
+   "fieldtype": "Link",
+   "label": "Process",
+   "options": "ProcessOptions"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-13 10:47:51.889039",
+ "modified_by": "Administrator",
+ "module": "seerakku",
+ "name": "quiztable",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
